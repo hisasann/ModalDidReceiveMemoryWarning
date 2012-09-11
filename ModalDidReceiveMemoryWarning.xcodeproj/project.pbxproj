@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDB9B1415FF17C300B9BFAD /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB9B1315FF17C300B9BFAD /* TopViewController.m */; };
+		CEF92A0915CFA4E200EB5B11 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF92A0815CFA4E200EB5B11 /* ModalViewController.m */; };
+		CEF92A0D15CFA86200EB5B11 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF92A0C15CFA86200EB5B11 /* NavViewController.m */; };
+		CEF92A1015CFA9B000EB5B11 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF92A0F15CFA9B000EB5B11 /* ListViewController.m */; };
+		DF72B3D6294B43635A0A8AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AC6 /* UIKit.framework */; };
+		DF72B3D6294B43635A0A8AC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AC8 /* Foundation.framework */; };
+		DF72B3D6294B43635A0A8ACB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8ACA /* CoreGraphics.framework */; };
+		DF72B3D6294B43635A0A8AD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AD0 /* InfoPlist.strings */; };
+		DF72B3D6294B43635A0A8AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AD2 /* main.m */; };
+		DF72B3D6294B43635A0A8AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AD6 /* AppDelegate.m */; };
+		DF72B3D6294B43635A0A8ADA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8AD9 /* MainStoryboard.storyboard */; };
+		DF72B3D6294B43635A0A8ADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72B3D6294B43635A0A8ADC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDB9B1215FF17C300B9BFAD /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		CEDB9B1315FF17C300B9BFAD /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		CEF92A0715CFA4E200EB5B11 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		CEF92A0815CFA4E200EB5B11 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		CEF92A0B15CFA86200EB5B11 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		CEF92A0C15CFA86200EB5B11 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		CEF92A0E15CFA9B000EB5B11 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		CEF92A0F15CFA9B000EB5B11 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8ABD /* ModalDidReceiveMemoryWarning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalDidReceiveMemoryWarning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72B3D6294B43635A0A8AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF72B3D6294B43635A0A8AC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF72B3D6294B43635A0A8ACA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF72B3D6294B43635A0A8ACE /* ModalDidReceiveMemoryWarning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ModalDidReceiveMemoryWarning-Info.plist"; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8AD4 /* ModalDidReceiveMemoryWarning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalDidReceiveMemoryWarning-Prefix.pch"; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8AD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8AD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF72B3D6294B43635A0A8ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF72B3D6294B43635A0A8AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72B3D6294B43635A0A8AC7 /* UIKit.framework in Frameworks */,
+				DF72B3D6294B43635A0A8AC9 /* Foundation.framework in Frameworks */,
+				DF72B3D6294B43635A0A8ACB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF72B3D6294B43635A0A8AB9 = {
+			isa = PBXGroup;
+			children = (
+				DF72B3D6294B43635A0A8ABA /* Products */,
+				DF72B3D6294B43635A0A8AC5 /* Frameworks */,
+				DF72B3D6294B43635A0A8ACC /* ModalDidReceiveMemoryWarning */,
+			);
+			sourceTree = "<group>";
+		};
+		DF72B3D6294B43635A0A8ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF72B3D6294B43635A0A8ABD /* ModalDidReceiveMemoryWarning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF72B3D6294B43635A0A8AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF72B3D6294B43635A0A8ACA /* CoreGraphics.framework */,
+				DF72B3D6294B43635A0A8AC8 /* Foundation.framework */,
+				DF72B3D6294B43635A0A8AC6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF72B3D6294B43635A0A8ACC /* ModalDidReceiveMemoryWarning */ = {
+			isa = PBXGroup;
+			children = (
+				DF72B3D6294B43635A0A8ADC /* ViewController.m */,
+				DF72B3D6294B43635A0A8ADB /* ViewController.h */,
+				DF72B3D6294B43635A0A8AD9 /* MainStoryboard.storyboard */,
+				DF72B3D6294B43635A0A8AD6 /* AppDelegate.m */,
+				DF72B3D6294B43635A0A8AD5 /* AppDelegate.h */,
+				DF72B3D6294B43635A0A8ACD /* Supporting Files */,
+				CEF92A0715CFA4E200EB5B11 /* ModalViewController.h */,
+				CEF92A0815CFA4E200EB5B11 /* ModalViewController.m */,
+				CEF92A0B15CFA86200EB5B11 /* NavViewController.h */,
+				CEF92A0C15CFA86200EB5B11 /* NavViewController.m */,
+				CEF92A0E15CFA9B000EB5B11 /* ListViewController.h */,
+				CEF92A0F15CFA9B000EB5B11 /* ListViewController.m */,
+				CEDB9B1215FF17C300B9BFAD /* TopViewController.h */,
+				CEDB9B1315FF17C300B9BFAD /* TopViewController.m */,
+			);
+			path = ModalDidReceiveMemoryWarning;
+			sourceTree = "<group>";
+		};
+		DF72B3D6294B43635A0A8ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72B3D6294B43635A0A8AD4 /* ModalDidReceiveMemoryWarning-Prefix.pch */,
+				DF72B3D6294B43635A0A8AD2 /* main.m */,
+				DF72B3D6294B43635A0A8AD0 /* InfoPlist.strings */,
+				DF72B3D6294B43635A0A8ACE /* ModalDidReceiveMemoryWarning-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF72B3D6294B43635A0A8ABE /* ModalDidReceiveMemoryWarning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF72B3D6294B43635A0A8ABF /* Build configuration list for PBXNativeTarget "ModalDidReceiveMemoryWarning" */;
+			buildPhases = (
+				DF72B3D6294B43635A0A8AC2 /* Sources */,
+				DF72B3D6294B43635A0A8AC3 /* Frameworks */,
+				DF72B3D6294B43635A0A8AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalDidReceiveMemoryWarning;
+			productName = ModalDidReceiveMemoryWarning;
+			productReference = DF72B3D6294B43635A0A8ABD /* ModalDidReceiveMemoryWarning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF72B3D6294B43635A0A8AB7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DF72B3D6294B43635A0A8AB8 /* Build configuration list for PBXProject "ModalDidReceiveMemoryWarning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF72B3D6294B43635A0A8AB9;
+			productRefGroup = DF72B3D6294B43635A0A8ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF72B3D6294B43635A0A8ABE /* ModalDidReceiveMemoryWarning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF72B3D6294B43635A0A8AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72B3D6294B43635A0A8AD1 /* InfoPlist.strings in Resources */,
+				DF72B3D6294B43635A0A8ADA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF72B3D6294B43635A0A8AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72B3D6294B43635A0A8AD3 /* main.m in Sources */,
+				DF72B3D6294B43635A0A8AD7 /* AppDelegate.m in Sources */,
+				DF72B3D6294B43635A0A8ADD /* ViewController.m in Sources */,
+				CEF92A0915CFA4E200EB5B11 /* ModalViewController.m in Sources */,
+				CEF92A0D15CFA86200EB5B11 /* NavViewController.m in Sources */,
+				CEF92A1015CFA9B000EB5B11 /* ListViewController.m in Sources */,
+				CEDB9B1415FF17C300B9BFAD /* TopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF72B3D6294B43635A0A8AD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF72B3D6294B43635A0A8ACF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF72B3D6294B43635A0A8AD9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF72B3D6294B43635A0A8AD8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF72B3D6294B43635A0A8ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF72B3D6294B43635A0A8ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF72B3D6294B43635A0A8AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDidReceiveMemoryWarning/ModalDidReceiveMemoryWarning-Prefix.pch";
+				INFOPLIST_FILE = "ModalDidReceiveMemoryWarning/ModalDidReceiveMemoryWarning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF72B3D6294B43635A0A8AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDidReceiveMemoryWarning/ModalDidReceiveMemoryWarning-Prefix.pch";
+				INFOPLIST_FILE = "ModalDidReceiveMemoryWarning/ModalDidReceiveMemoryWarning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF72B3D6294B43635A0A8AB8 /* Build configuration list for PBXProject "ModalDidReceiveMemoryWarning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72B3D6294B43635A0A8ABB /* Release */,
+				DF72B3D6294B43635A0A8ABC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF72B3D6294B43635A0A8ABF /* Build configuration list for PBXNativeTarget "ModalDidReceiveMemoryWarning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72B3D6294B43635A0A8AC0 /* Release */,
+				DF72B3D6294B43635A0A8AC1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF72B3D6294B43635A0A8AB7 /* Project object */;
+}
